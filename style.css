@@ -1,0 +1,240 @@
+/* rests */
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.btn {
+  border: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+::selection {
+  background: #5f1782;
+  color: #fff;
+}
+
+#nav-bar {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  /* padding: 0 !important; */
+}
+
+/* media for nav */
+
+@media only screen and (max-width: 600px) {
+  .navbar-nav {
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding-top: 60px;
+    font-size: 35px;
+  }
+}
+
+/*End media for nav */
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-size: 14px;
+}
+
+.navbar-nav li a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.fa-bars {
+  color: #fff !important;
+  font-size: 25px;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  outline: none !important;
+}
+
+/*++++++++++++++++++ banner +++++++++++++*/
+
+#banner {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+  padding-top: 5%;
+}
+
+.titlebanner {
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.titleico {
+  width: 45px;
+  margin: 10px;
+}
+
+.watechbtn {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.watechbtn:hover {
+  color: #fff;
+}
+
+.bottom-img {
+  width: 100%;
+}
+
+/*.............. servces ..........*/
+
+#servces {
+  padding: 80px 0;
+}
+
+.servec-item {
+  padding: 20px;
+}
+
+.servec-item h1 {
+  font-size: 25px;
+}
+
+.servec-item img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.maintitle {
+  position: relative;
+}
+
+.maintitle::after {
+  content: "";
+  width: 10%;
+  height: 5px;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%);
+  background-color: #a517ba;
+}
+
+.btn-primary {
+  padding: 8px 25px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/*................. ABOUT............ */
+
+#About {
+  padding: 50px 0;
+}
+
+.aboutlist li {
+  font-size: 20px;
+  margin: 10px 20px;
+}
+
+/* ...........tesmmoineals.......... */
+
+#tesmmoineals {
+  padding: 50px 0;
+}
+
+.tesmmoineal {
+  margin-top: 30px;
+  border-left: 3px solid #a517ba;
+}
+
+.tesmmoineal img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.user-ditail {
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+/* ............social......... */
+
+#social {
+  padding: 100px 0;
+}
+
+.socialwraper a img {
+  width: 60px;
+  transition: all 0.3s;
+}
+
+.socialwraper a:hover img {
+  transform: translateY(-10px);
+}
+
+/* .......footer............. */
+
+#footer {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+}
+
+.top-img {
+  width: 100%;
+}
+
+#footer .fot-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+#footer h5 {
+  margin-bottom: 20px;
+}
+
+#footer .iconwrap i {
+  margin-right: 8px;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  text-align: center;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.Subcrib {
+  margin-top: 20px;
+}
+
+.frmbtn {
+  display: block;
+  margin-top: 15px;
+}
+
+.fot-inpt {
+  width: 250px;
+  height: 30px;
+  outline: none;
+  box-shadow: none;
+  padding-left: 5px;
+}
