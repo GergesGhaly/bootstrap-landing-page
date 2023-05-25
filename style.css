@@ -153,7 +153,6 @@ body {
   font-size: 20px;
   margin: 10px 20px;
 }
-
 /* ...........tesmmoineals.......... */
 
 #tesmmoineals {
@@ -222,9 +221,6 @@ body {
   background-image: linear-gradient(to right, #a517ba, #5f1782);
 }
 
-.Subcrib {
-  margin-top: 20px;
-}
 
 .frmbtn {
   display: block;
